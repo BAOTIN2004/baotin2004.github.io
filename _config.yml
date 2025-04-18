@@ -31,8 +31,8 @@ github:
 
 twitter:
   username: baotinne # change to your Twitter username
-linkedin:
-    username: phạm-phước-bảo-tín-9a9141244
+# linkedin:
+#     username: phạm-phước-bảo-tín-9a9141244
 
 social:
   # Change to your full name.
@@ -45,7 +45,7 @@ social:
     - https://github.com/baotin2004 # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/ph%E1%BA%A1m-ph%C6%B0%E1%BB%9Bc-b%E1%BA%A3o-t%C3%ADn-9a9141244/
+    # - https://www.linkedin.com/in/ph%E1%BA%A1m-ph%C6%B0%E1%BB%9Bc-b%E1%BA%A3o-t%C3%ADn-9a9141244/
 
 # Site Verification Settings
 webmaster_verifications:
