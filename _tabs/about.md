@@ -20,8 +20,8 @@ I'm currently an AI intern with a strong interest in machine learning, deep lear
 
 ## 💼 Skills
 
-- **Programming**: Python, JavaScript, C++
-- **Frameworks**: PyTorch, TensorFlow, Flask
+- **Programming**: Python, R, C++
+- **Frameworks**: PyTorch, TensorFlow, Sklearn
 - **Tools**: Git, Docker, NocoDB, Jupyter, VS Code
 - **Languages**: Vietnamese (native), English (professional)
 
