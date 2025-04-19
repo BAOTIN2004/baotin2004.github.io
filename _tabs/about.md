@@ -1,8 +1,36 @@
 ---
-# the default layout is 'page'
+title: About
 icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+# 👋 Hi, I'm Pham Phuoc Bao Tin
+
+I'm currently an AI intern with a strong interest in machine learning, deep learning, and data-driven applications.
+
+- 🎓 Studying: Artificial intelligence / School of Engineering and Technology – Hue University (HUET)
+- 🧠 Interested in AI, backend development, and data science
+- 🔭 Currently working on: ML projects & technical blogging
+- 📫 How to reach me:
+  - [GitHub](https://github.com/baotin2004)
+  - [LinkedIn](https://www.linkedin.com/in/baotin2004/)
+  - [Email](mailto:baotinphamphuoc@gmail.com)
+
+---
+
+## 💼 Skills
+
+- **Programming**: Python, JavaScript, C++
+- **Frameworks**: PyTorch, TensorFlow, Flask
+- **Tools**: Git, Docker, NocoDB, Jupyter, VS Code
+- **Languages**: Vietnamese (native), English (professional)
+
+---
+
+## 📝 Projects
+
+Visit my [GitHub](https://github.com/baotin2004) to explore some of my work.
+
+---
+
+Thanks for visiting my site!
