@@ -29,23 +29,17 @@ baseurl: ""
 github:
   username: baotin2004 # change to your GitHub username
 
+linkedin:
+  username: baotin2004
 twitter:
-  username: baotinne # change to your Twitter username
-# linkedin:
-#     username: phạm-phước-bảo-tín-9a9141244
-
+  username: null
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Pham Phuoc Bao Tin
-  email: baotinphamphuoc@gmail.com # change to your email address
+  email: baotinphamphuoc@gmail.com
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/baotinne # change to your Twitter homepage
-    - https://github.com/baotin2004 # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/ph%E1%BA%A1m-ph%C6%B0%E1%BB%9Bc-b%E1%BA%A3o-t%C3%ADn-9a9141244/
+    - https://github.com/baotin2004
+    - mailto:baotinphamphuoc@gmail.com
+    - https://www.linkedin.com/in/baotin2004/
 
 # Site Verification Settings
 webmaster_verifications:
