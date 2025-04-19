@@ -23,15 +23,17 @@ Sofascore Football Crawler là một công cụ thu thập dữ liệu bóng đ�
 ### Cách cài đặt
 1. Clone repo này về máy:
 git clone  https://github.com/BAOTIN2004/sofascore-football-crawler.git
+
 ## Đóng góp
 Nếu bạn muốn đóng góp cho dự án:
-1. Fork repo này.
-2. Tạo branch mới:
-git checkout -b branch-moi
-3. Commit thay đổi:
-git commit -m "Mô tả thay đổi"
-4. Push lên Github:
-git push origin branch-moi
+
+2. Fork repo này.
+
+3. Tạo branch mới: `git checkout -b branch-moi`
+
+4. Commit thay đổi: `git commit -m "Mô tả thay đổi"`
+
+5. Push lên Github: `git push origin branch-moi`
 
 ## Liên hệ
 Nếu có bất kỳ câu hỏi nào, hãy liên hệ qua emai hoặc tạo issue trên GitHub.
