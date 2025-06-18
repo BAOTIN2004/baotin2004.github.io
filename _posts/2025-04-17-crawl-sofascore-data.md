@@ -35,7 +35,7 @@ tags: [python, crawl, sofascore, data]
    ```
    git clone https://github.com/BAOTIN2004/sofascore-football-crawler.git ```
 2. Di chuyển đến thư mục:
-    ```cd "code crawl sofascore"```
+    ```cd "code crawl"```
 3. Chạy chương trình:
     ```python EPL_sofa_crawl.py ```
 4. Sau khi chạy thành công, file `.csv` chứa dữ liệu được tạo ra trong thư mục làm việc.
