@@ -17,7 +17,7 @@ Dành cho những bạn:
 
 ## 1. Thu thập dữ liệu tuyển sinh lớp 10 ở Tp.Huế
 
-Dữ liệu được thu thập từ trang [Tra cứu điểm tuyển sinh Tp Huế](http://103.126.153.106/tracuu/index.html).
+Dữ liệu được thu thập từ trang Tra cứu điểm tuyển sinh Tp Huế: http://103.126.153.106/tracuu/index.html.
 
 ### 1.1 Yêu cầu hệ thống
 - Python 3.x
