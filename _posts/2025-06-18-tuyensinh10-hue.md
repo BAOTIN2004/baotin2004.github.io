@@ -29,7 +29,7 @@ Dữ liệu được thu thập từ trang [Tra cứu điểm tuyển sinh Tp Hu
 2. Di chuyển đến thư mục:
     ```cd "code crawl"```
 3. Chạy chương trình:
-    ```python EPL_sofa_crawl.py ```
+    ```python l10.py ```
 4. Sau khi chạy thành công, file `.csv` chứa dữ liệu được tạo ra trong thư mục làm việc.
 
 
