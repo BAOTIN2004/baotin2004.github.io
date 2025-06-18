@@ -45,7 +45,7 @@ Dự án hiện tại hỗ trợ thu thập dữ liệu từ giải Premier Leag
 Tuy nhiên, bạn có thể dễ dàng thay đổi giải đấu bằng cách chỉnh sửa mã trong file `EPL_sofa_crawl.py`.
 1. Mở file `EPL_sofa_crawl.py` tìm phần mã chứa URL của giải đấu.
 2. Thay thế URL đó bằng URL của giải đấu bạn muốn thu thập dữ liệu (ví dụ: La Liga, Serie A,...).
-3. Chạy lại script và dữ liệu sẽ được thu thập cho giải đấu mới.
+3. Chạy lại script và dữ liệu sẽ được thu thập cho giải đấu mới .
 
 ## Đóng góp
 Nếu bạn muốn đóng góp cho dự án:
