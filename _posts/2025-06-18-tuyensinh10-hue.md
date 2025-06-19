@@ -17,7 +17,7 @@ Dành cho những bạn:
 
 ## 1. Thu thập dữ liệu tuyển sinh lớp 10 ở Tp.Huế
 
-Dữ liệu được thu thập từ trang Tra cứu điểm tuyển sinh Tp Huế: http://103.126.153.106/tracuu/index.html. Theo thông tin Sở GD & ĐT TP Huế đăng tải thì có hơn 12400 thí sinh đăng ký dự thi tuyển sinh vào lớp 10. Tuy nhiên trong bài viết này chỉ thực hiện crawl được khoảng 7000 thí sinh, với từ sbd 000001 => 099999, với 3 sbd liên tiếp không có thông tin thí sinh thì cộng lên 100 đơn vị. Hiện tại vẫn chưa tìm ra phương pháp hiệu quả nhất, rất mong được đóng góp từ bạn đọc.
+Dữ liệu được thu thập từ trang [Tra cứu điểm tuyển sinh Tp Huế](http://117.3.133.1:8080/tracuu/index.html). Theo Báo Giáo dục và Thời đại đăng tin có hơn 12400 thí sinh đăng ký dự thi tuyển sinh vào lớp 10. Tuy nhiên trong bài viết này chỉ thực hiện crawl được khoảng 11000 thí sinh, số báo danh có định dạng 6 con số "010001",...với phương pháp khi tra cứu 3 số báo danh liên tiếp không có thông tin thí sinh thì cộng lên 100 đơn vị. Hiện tại vẫn chưa tìm ra phương pháp hiệu quả nhất, rất mong được đóng góp từ bạn đọc.
 ### 1.1 Yêu cầu hệ thống
 - Python 3.x
 - Các thư viện: `selenium`, `bs4`, `time`,...
