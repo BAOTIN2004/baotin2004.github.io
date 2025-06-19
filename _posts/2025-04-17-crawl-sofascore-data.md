@@ -62,7 +62,7 @@ Nếu bạn muốn đóng góp cho dự án:
 5. Tạo Pull Request để được xem xét và hợp nhất vào nhánh chính.
 
 ## Liên hệ
-Nếu có bất kỳ câu hỏi nào, hãy liên hệ qua emai hoặc tạo issue trên GitHub.
+Nếu có bất kỳ câu hỏi nào, hãy liên hệ qua email hoặc tạo issue trên GitHub.
 
 ---
 ## Người phát triển
