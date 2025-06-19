@@ -1,6 +1,6 @@
 ---
 title: "Kết quả tuyển sinh lớp 10 Tp.Huế"
-date: 2025-05-18 22:00:00 +0700
+date: 2025-06-18 22:00:00 +0700
 categories: [Projects, Data Collection]
 tags: [python, crawl, data, tuyensinh10]
 ---
@@ -17,8 +17,7 @@ Dành cho những bạn:
 
 ## 1. Thu thập dữ liệu tuyển sinh lớp 10 ở Tp.Huế
 
-Dữ liệu được thu thập từ trang Tra cứu điểm tuyển sinh Tp Huế: http://103.126.153.106/tracuu/index.html.
-
+Dữ liệu được thu thập từ trang Tra cứu điểm tuyển sinh Tp Huế: http://103.126.153.106/tracuu/index.html. Theo thông tin Sở GD & ĐT TP Huế đăng tải thì có hơn 12400 thí sinh đăng ký dự thi tuyển sinh vào lớp 10. Tuy nhiên trong bài viết này chỉ thực hiện crawl được khoảng 7000 thí sinh, với từ sbd 000001 => 099999, với 3 sbd liên tiếp không có thông tin thí sinh thì cộng lên 100 đơn vị. Hiện tại vẫn chưa tìm ra phương pháp hiệu quả nhất, rất mong được đóng góp từ bạn đọc.
 ### 1.1 Yêu cầu hệ thống
 - Python 3.x
 - Các thư viện: `selenium`, `bs4`, `time`,...
@@ -32,5 +31,19 @@ Dữ liệu được thu thập từ trang Tra cứu điểm tuyển sinh Tp Hu�
     ```python l10.py ```
 4. Sau khi chạy thành công, file `.csv` chứa dữ liệu được tạo ra trong thư mục làm việc.
 
+### 1.3 Tiền xử lý dữ liệu
+Bài viết này tập trung chủ yếu vào phân tích nên quá trình [tiền xử lý dữ liệu](http://github.com/BAOTIN2004/sofascore-football-crawler/blob/main/code%20crawl/data_preprocessed_tuyensinh10.ipynb) được thực hiện chi tiết qua đường dẫn.
 
-## Phân tích dữ liệu tuyển sinh lớp 10 ở Tp.Huế
+## 2. Phân tích dữ liệu tuyển sinh lớp 10 ở Tp.Huế
+
+
+
+
+
+## Liên hệ
+Nếu có bất kỳ câu hỏi hay đóng góp, hãy liên hệ qua email hoặc tạo issue trên GitHub.
+
+---
+## Người phát triển
+**Phạm Phước Bảo Tín (tinppb)**  
+📧 Email: [baotinphamphuoc@gmail.com](mailto:baotinphamphuoc@gmail.com)  
