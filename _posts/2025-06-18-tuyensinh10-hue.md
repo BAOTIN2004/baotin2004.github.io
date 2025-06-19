@@ -32,7 +32,7 @@ Dữ liệu được thu thập từ trang Tra cứu điểm tuyển sinh Tp Hu�
 4. Sau khi chạy thành công, file `.csv` chứa dữ liệu được tạo ra trong thư mục làm việc.
 
 ### 1.3 Tiền xử lý dữ liệu
-Bài viết này tập trung chủ yếu vào phân tích nên quá trình [tiền xử lý dữ liệu](http://github.com/BAOTIN2004/sofascore-football-crawler/blob/main/code%20crawl/data_preprocessed_tuyensinh10.ipynb) được thực hiện chi tiết qua đường dẫn.
+Bài viết này tập trung chủ yếu vào phân tích nên quá trình [tiền xử lý dữ liệu](https://github.com/BAOTIN2004/sofascore-football-crawler/blob/main/code%20crawl/data_preprocessed_tuyensinh10.ipynb) được thực hiện chi tiết qua đường dẫn.
 
 ## 2. Phân tích dữ liệu tuyển sinh lớp 10 ở Tp.Huế
 
