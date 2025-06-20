@@ -54,6 +54,7 @@ Giới thiệu dữ liệu:
 ### 1.3. Tiền xử lý dữ liệu
 Bài viết này tập trung chủ yếu vào phân tích nên quá trình [tiền xử lý dữ liệu](https://github.com/BAOTIN2004/sofascore-football-crawler/blob/main/code%20crawl/data_preprocessed_tuyensinh10.ipynb) được thực hiện chi tiết qua đường dẫn.
 Bộ dữ liệu ban đầu có chất lượng tương đối tốt, chỉ phát sinh một số vấn đề nhỏ trong khâu tiền xử lý như chuẩn hóa định dạng điểm, xử lý trùng lặp và chuẩn hóa văn bản. Do đó, bước tiền xử lý được thực hiện khá nhanh chóng và không yêu cầu thao tác quá phức tạp.
+
 ## 2. Phân tích dữ liệu tuyển sinh lớp 10 ở Tp.Huế
 
 ### 2.1. Khám phá tổng quan dữ liệu
