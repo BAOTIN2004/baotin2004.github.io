@@ -12,7 +12,7 @@ Bên cạnh kỳ thi trung học phổ thông quốc gia thì kỳ thi tuyển s
 - Trường nào có số lượng học sinh đặt nguyện vọng 1 nhiều nhất ?
 - Môn có phổ điểm cao nhất/thấp nhất ?
 - Giới tính "Nam" liệu có học giỏi hơn giới tính "Nữ" trong giai đoạn THCS ?
-- Có sự phân hóa rõ rệt giữa các vùng quận/huyện/thị xã hay không ?,...
+- Có sự phân hóa rõ rệt về chất lượng học sinh giữa các vùng quận/huyện/thị xã hay không ?,...
 
 
 Bài viết này phù hợp cho những bạn đọc:
@@ -34,7 +34,7 @@ Giới thiệu dữ liệu:
 - Nguyện vọng 1, 2, 3: Các trường THPT thí sinh đăng ký theo thứ tự ưu tiên.
 - Điểm Toán, Ngữ văn/Tiếng Việt, Ngoại ngữ: Điểm thi của từng môn, tính theo thang điểm 10.
 - Điểm THCS: Điểm xét tuyển dựa trên kết quả học tập 4 năm THCS.
-- Tổng xét phổ thông/NTP: Tổng điểm xét tuyển, được tính bằng công thức: DXT = Điểm(Toán + Văn + Anh) + Điểm THCS
+- Tổng xét phổ thông/NTP: Tổng điểm xét tuyển, được tính bằng công thức: DXT = Điểm(Toán + Văn + Anh) + Điểm THCS.
 - Kết quả: Trúng tuyển hoặc không trúng tuyển, kèm theo trường THPT trúng tuyển.
 - Ghi chú: Thông tin bổ sung, chuyên Tin, Hóa,...
 
@@ -57,6 +57,62 @@ Bộ dữ liệu ban đầu có chất lượng tương đối tốt, chỉ phá
 ## 2. Phân tích dữ liệu tuyển sinh lớp 10 ở Tp.Huế
 
 ### 2.1. Khám phá tổng quan dữ liệu
+
+Thống kê số lượng thí sinh đặt nguyện vọng 1 vào các trường (**không tính Quốc học Huế**).
+
+| STT | Trường THPT            | NV1  | NV2 | NV3  |
+| --- | ---------------------- | ---- | --- | ---- |
+| 1   | THPT Hai Bà Trưng      | 1.031 | 14  | 49   |
+| 2   | THPT Nguyễn Huệ        | 841  | 286 | 29   |
+| 3   | THPT Cao Thắng         | 613  | 573 | 524  |
+| 4   | THPT Phan Đăng Lưu     | 594  | 352 | 249  |
+| 5   | THPT Gia Hội           | 580  | 611 | 534  |
+| 6   | THPT An Lương Đông     | 502  | 73  | 95   |
+| 7   | THPT Thừa Lưu          | 470  | 59  | 95   |
+| 8   | THPT Nguyễn Chí Thanh  | 414  | 82  | 19   |
+| 9   | THPT Đặng Huy Trứ      | 410  | 367 | 173  |
+| 10  | THPT Phú Bài           | 403  | 272 | 68   |
+| 11  | THPT Thuận An          | 400  | 557 | 253  |
+| 12  | THPT Nguyễn Trường Tộ  | 379  | 832 | 158  |
+| 13  | THPT Bùi Thị Xuân      | 346  | 753 | 644  |
+| 14  | THPT A Lưới            | 340  | 122 | 7    |
+| 15  | THPT Nguyễn Đình Chiểu | 334  | 309 | 179  |
+| 16  | THPT Vinh Xuân         | 304  | 170 | 314  |
+| 17  | THPT Hương Thủy        | 284  | 449 | 100  |
+| 18  | THPT Hương Trà         | 254  | 320 | 85   |
+| 19  | THPT Phong Điền        | 248  | 392 | 127  |
+| 20  | THPT Nguyễn Sinh Cung  | 242  | 486 | 605  |
+| 21  | THPT Vinh Lộc          | 229  | 68  | 58   |
+| 22  | THPT Trần Văn Kỷ       | 210  | 291 | 201  |
+| 23  | THPT Tam Giang         | 210  | 108 | 87   |
+| 24  | THPT Nam Đông          | 185  | 62  | 110  |
+| 25  | THPT Hà Trung          | 159  | 228 | 270  |
+| 26  | THPT Hương Vinh        | 158  | 367 | 1065 |
+| 27  | THPT Tố Hữu            | 148  | 78  | 95   |
+| 28  | THPT Hoá Châu          | 143  | 290 | 91   |
+| 29  | THPT Phú Lộc           | 130  | 916 | 78   |
+| 30  | THPT Bình Điền         | 101  | 22  | 322  |
+| 31  | THCS\&THPT Hồng Vân    | 83   | 175 | 113  |
+| 32  | Không đăng ký          | 70   | 629 | 3181 |
+| 33  | THPT Đặng Trần Côn     | 67   | 491 | 854  |
+| 34  | THCS\&THPT Trường Sơn  | 48   | 151 | 123  |
+| 35  | THPT Trần Văn Kỷ NT    | 25   | –   | –    |
+
+
+Thống kê số lượng thí sinh theo địa lý.
+
+| STT | Địa phương        | Số lượng thí sinh |
+| --- | ----------------- | ----------------- |
+| 1   | Quận Thuận Hóa    | 2.906             |
+| 2   | Quận Phú Xuân     | 1.807             |
+| 3   | Huyện Phú Lộc     | 1.513             |
+| 4   | Huyện Phú Vang    | 1.115             |
+| 5   | Thị xã Phong Điền | 1.027             |
+| 6   | Huyện Quảng Điền  | 718               |
+| 7   | Thị xã Hương Thủy | 693               |
+| 8   | Thị xã Hương Trà  | 632               |
+| 9   | Huyện A Lưới      | 474               |
+| 10  | Ngoài tỉnh        | 69                |
 
 
 ### 2.2. 
