@@ -5,12 +5,12 @@ categories: [Projects, Data Collection]
 tags: [python, crawl, data, tuyensinh10]
 ---
 
-# Phân tích dữ liệu tuyển sinh lớp 10 ở TP Huế
+# Thu thập và Phân tích dữ liệu tuyển sinh lớp 10 ở TP Huế
 
 ## Giới thiệu
-Tuyển sinh lớp 10 là một trong những kỳ thi quan trọng đối với học sinh THCS tại Việt Nam. Với mục tiêu khám phá dữ liệu tuyển sinh ở TP Huế năm 2025, bài viết này hướng dẫn cách **crawl dữ liệu từ trang tra cứu điểm**, xử lý dữ liệu và phân tích các xu hướng nổi bật: điểm chuẩn, phổ điểm, so sánh các trường...
+Bên cạnh kỳ thi trung học phổ thông quốc gia thì kỳ thi tuyển sinh lớp 10 cũng là một trong những kỳ thi quan trọng đối với học sinh tại Việt Nam. Với mục tiêu khám phá dữ liệu tuyển sinh ở TP Huế năm 2025, bài viết này hướng dẫn cách **crawl dữ liệu từ trang tra cứu điểm**, xử lý dữ liệu và phân tích các xu hướng nổi bật: phổ điểm, so sánh các trường...
 
-Dành cho những bạn:
+Dành cho những bạn đọc:
 - Muốn tìm hiểu về kỹ thuật crawl dữ liệu thực tế.
 - Yêu thích phân tích dữ liệu giáo dục.
 - Muốn khám phá kỳ thi tuyển sinh lớp 10 ở Huế bằng góc nhìn số liệu.
@@ -34,7 +34,7 @@ Dữ liệu được thu thập từ trang tra cứu điểm tuyển sinh Tp Hu�
 
 ### 1.3 Tiền xử lý dữ liệu
 Bài viết này tập trung chủ yếu vào phân tích nên quá trình [tiền xử lý dữ liệu](https://github.com/BAOTIN2004/sofascore-football-crawler/blob/main/code%20crawl/data_preprocessed_tuyensinh10.ipynb) được thực hiện chi tiết qua đường dẫn.
-
+Bộ dữ liệu ban đầu có chất lượng tương đối tốt, chỉ phát sinh một số vấn đề nhỏ trong khâu tiền xử lý như chuẩn hóa định dạng điểm, xử lý trùng lặp và chuẩn hóa văn bản. Do đó, bước tiền xử lý được thực hiện khá nhanh chóng và không yêu cầu thao tác quá phức tạp.
 ## 2. Phân tích dữ liệu tuyển sinh lớp 10 ở Tp.Huế
 
 
