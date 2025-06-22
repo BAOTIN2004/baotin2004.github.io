@@ -57,13 +57,32 @@ Bộ dữ liệu ban đầu có chất lượng tương đối tốt, chỉ phá
 
 ## 2. Phân tích dữ liệu tuyển sinh lớp 10 ở Tp.Huế
 
-### 2.1. Khám phá tổng quan dữ liệu
+### 2.1. Phổ điểm môn Toán, Ngữ văn, Ngoại ngữ
 
-Thống kê số lượng thí sinh đặt nguyện vọng 1 vào các trường (**không tính Quốc học Huế**).
+Phổ điểm các môn như sau:
+
+
+| Môn     | Điểm trung bình    | Điểm trung vị  | Điểm có nhiều thí sinh đạt nhất | Số thí sinh ≤ 1 điểm | Số thí sinh đạt 10
+|---------|:------------------:|:--------------:|:-------------------------------:|:--------------------:|:--------------------:|
+| Toán    | 3,3                | 2,75           | 1,5                               |    1.992              | 5|
+|Ngữ văn| 5,5| 5,6| 6,0| 38|0|
+|Ngoại ngữ| 4,8| 4,0| 3,0|10| 68|
+
+![Phổ điểm các môn](/assets1/img/his_toan_van_anh.png)
+
+Phổ điểm **môn Toán** lệch trái rõ rệt, tập trung nhiều ở mức điểm 1.5 – 4, với đỉnh tại 1.5 điểm. Số thí sinh đạt điểm dưới trung bình chiếm phần lớn, cho thấy đề thi có tính phân loại cao hoặc có thể do đa số học sinh gặp khó khăn đối với môn này. Đây là môn có phổ điểm thấp nhất trong ba môn thi.
+
+Phổ điểm **môn Ngữ văn** có dạng hình chuông khá cân đối, tập trung chủ yếu ở mức 5-7 điểm. Điểm trung bình (5.5) và điểm trung vị (5.6), điều này có thể nhận định rằng đề thi vừa sức ít thí sinh có điểm quá cao hay điểm quá thấp. Sự phân bố điểm đồng đều này cũng phản ánh học sinh có sự quan tâm lớn với môn Ngữ văn. Đây là môn duy nhất không có điểm 10, điều này cũng dễ hiểu bởi vì đạt điểm 10 ở môn Ngữ văn rất khó.
+
+Phổ điểm **môn Ngoại ngữ** phân tán tương đối rộng và có nhiều đỉnh, trong đó điểm 3 là số điểm nhiều thí sinh đạt được nhất. Mặc dù vẫn có một lượng thí sinh đạt điểm cao (trên 8), phần lớn tập trung ở khoảng 2–4 điểm, cho thấy sự chênh lệch năng lực ngoại ngữ khá lớn giữa các học sinh. Đây cũng là môn có nhiều số điểm 10 vượt trội các môn còn lại (68).
+
+### 2.2. Xu hướng đặt nguyện vọng
+
+Thống kê số lượng thí sinh đặt nguyện vọng vào các trường (**không tính Quốc học Huế**):
 
 | STT | Trường THPT            | NV1  | NV2 | NV3  |
 | --- | ---------------------- | ---- | --- | ---- |
-| 1   | THPT Hai Bà Trưng      | 1.031 | 14  | 49   |
+| 1   | THPT Hai Bà Trưng      | 1.031 | 14  | 49  |
 | 2   | THPT Nguyễn Huệ        | 841  | 286 | 29   |
 | 3   | THPT Cao Thắng         | 613  | 573 | 524  |
 | 4   | THPT Phan Đăng Lưu     | 594  | 352 | 249  |
@@ -98,6 +117,17 @@ Thống kê số lượng thí sinh đặt nguyện vọng 1 vào các trường
 | 33  | THPT Đặng Trần Côn     | 67   | 491 | 854  |
 | 34  | THCS\&THPT Trường Sơn  | 48   | 151 | 123  |
 | 35  | THPT Trần Văn Kỷ NT    | 25   | –   | –    |
+
+Nguyện vọng 1: Lựa chọn ưu tiên
+- Hai trường THPT Hai Bà Trưng (1.031) và THPT Nguyễn Huệ (841) được lựa chọn làm nguyện vọng 1 nhiều nhất, cho thấy sự hút đối với học sinh, phụ huynh đến từ nguyện vọng đầu tiên.
+- Các trường như THPT Cao Thắng, Phan Đăng Lưu, Gia Hội cũng nằm trong top NV1 trên 550 lượt, thực tế điều này chứng minh ngoài vị trí trường thuận lợi với nhiều học sinh mà còn là chất lượng đào tạo ở các trường này mức tốt (phù hợp với học sinh khá - giỏi).
+- Các trường ở top giữa (250-450) lượt đặt NV1, đây là các trường có độ phổ biến vừa phải, không quá đông học sinh cạnh tranh như top đầu, nhưng cũng không quá ít để lo lắng về chất lượng đầu vào. Phù hợp với học sinh (Trung bình - Khá), tăng cơ hội trúng tuyển mà vẫn đảm bảo chất lượng đào tạo.
+
+Nguyện vọng 2: Phương án dự phòng an toàn
+- THPT Phú Lộc (916 HS) là lựa chọn NV2 phổ biến nhất dù chỉ có 130 NV1 → học sinh xem đây là “phương án an toàn” thay vì trường ưu tiên, (hoặc đây có thể do nhược điểm phương pháp crawl dữ liệu đầu bài viết đã trình bày thất lạc dữ liệu).
+
+![Top 15 trường có số nguyện vọng đăng ký](/assets1/img/nguyenvong.png)
+
 
 
 Thống kê số lượng thí sinh theo khu vực.
