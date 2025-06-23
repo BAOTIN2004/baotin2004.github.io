@@ -107,16 +107,19 @@ Thống kê số lượng thí sinh đặt nguyện vọng vào các trường (
 | 23  | THPT Tam Giang         | 210  | 108 | 87   |
 | 24  | THPT Nam Đông          | 185  | 62  | 110  |
 | 25  | THPT Hà Trung          | 159  | 228 | 270  |
-| 26  | THPT Hương Vinh        | 158  | 367 | 1065 |
+| 26  | THPT Hương Vinh        | 158  | 367 | 1.065 |
 | 27  | THPT Tố Hữu            | 148  | 78  | 95   |
 | 28  | THPT Hoá Châu          | 143  | 290 | 91   |
 | 29  | THPT Phú Lộc           | 130  | 916 | 78   |
 | 30  | THPT Bình Điền         | 101  | 22  | 322  |
 | 31  | THCS\&THPT Hồng Vân    | 83   | 175 | 113  |
-| 32  | Không đăng ký          | 70   | 629 | 3181 |
+| 32  | Không đăng ký          | 70   | 629 | 3.181 |
 | 33  | THPT Đặng Trần Côn     | 67   | 491 | 854  |
 | 34  | THCS\&THPT Trường Sơn  | 48   | 151 | 123  |
 | 35  | THPT Trần Văn Kỷ NT    | 25   | –   | –    |
+
+![Top 15 trường có số nguyện vọng đăng ký](/assets1/img/nguyenvong.png)
+
 
 Nguyện vọng 1: Lựa chọn ưu tiên
 - Hai trường THPT Hai Bà Trưng (1.031) và THPT Nguyễn Huệ (841) được lựa chọn làm nguyện vọng 1 nhiều nhất, cho thấy sự hút đối với học sinh, phụ huynh đến từ nguyện vọng đầu tiên.
@@ -124,9 +127,13 @@ Nguyện vọng 1: Lựa chọn ưu tiên
 - Các trường ở top giữa (250-450) lượt đặt NV1, đây là các trường có độ phổ biến vừa phải, không quá đông học sinh cạnh tranh như top đầu, nhưng cũng không quá ít để lo lắng về chất lượng đầu vào. Phù hợp với học sinh (Trung bình - Khá), tăng cơ hội trúng tuyển mà vẫn đảm bảo chất lượng đào tạo.
 
 Nguyện vọng 2: Phương án dự phòng an toàn
+- Các trường THPT Phú Lộc, Nguyễn Trường Tộ, và Bùi Thị Xuân có lượng đăng ký NV2 rất cao (trên 700 thí sinh), cho thấy vị trí dự phòng phổ biến của thí sinh sau khi chọn các trường mạnh ở NV1.
 - THPT Phú Lộc (916 HS) là lựa chọn NV2 phổ biến nhất dù chỉ có 130 NV1 → học sinh xem đây là “phương án an toàn” thay vì trường ưu tiên, (hoặc đây có thể do nhược điểm phương pháp crawl dữ liệu đầu bài viết đã trình bày thất lạc dữ liệu).
 
-![Top 15 trường có số nguyện vọng đăng ký](/assets1/img/nguyenvong.png)
+Nguyện vọng 3: Lựa chọn cuối cùng
+- Có đến 3.181 thí sinh không đăng ký NV3, cho thấy phần lớn các học sinh chỉ kỳ vọng ở hai lựa chọn đầu.
+- Trường có nhiều NV3 nhất là THPT Hương Vinh và THPT Đặng Trần Côn, thường được chọn như một "phao cứu sinh" nếu trượt NV1 và NV2.
+
 
 
 
