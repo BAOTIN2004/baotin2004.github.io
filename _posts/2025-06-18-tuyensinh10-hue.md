@@ -20,6 +20,7 @@ Bài viết này phù hợp cho những bạn đọc:
 - Yêu thích phân tích dữ liệu giáo dục.
 - Muốn khám phá kỳ thi tuyển sinh lớp 10 ở Huế bằng góc nhìn số liệu.
 
+Bài viết này được thực hiện dưới góc nhìn cá nhân, dựa trên dữ liệu thống kê và trực quan hóa, hoàn toàn không mang tính định hướng, xếp hạng hay đánh giá chính thức bất kỳ trường học hay địa phương nào.
 ## 1. Thu thập dữ liệu tuyển sinh lớp 10 ở Tp.Huế
 
 Dữ liệu được thu thập từ trang tra cứu điểm tuyển sinh Tp Huế: `http://117.3.133.1:8080/tracuu/index.html`. Theo Báo Giáo dục và Thời đại đăng tin có hơn 12.400 thí sinh đăng ký dự thi tuyển sinh vào lớp 10 tại địa bàn thành phố. Tuy nhiên trong bài viết này chỉ thực hiện crawl được kết quả khoảng 11.000 thí sinh, số báo danh có định dạng 6 chữ số "010001",...với phương pháp khi tra cứu 3 số báo danh liên tiếp không có thông tin thí sinh thì cộng lên 100 đơn vị. Hiện tại vẫn chưa tìm ra phương pháp hiệu quả nhất, rất mong được đóng góp từ bạn đọc.
@@ -135,11 +136,11 @@ Nguyện vọng 3: Lựa chọn cuối cùng
 - Trường có nhiều NV3 nhất là THPT Hương Vinh và THPT Đặng Trần Côn, thường được chọn như một "phao cứu sinh" nếu trượt NV1 và NV2.
 
 
-
+### 2.3. Chất lượng học tập khu 
 
 Thống kê số lượng thí sinh theo khu vực.
 
-| STT | Quận/Huyện/Thị xã | Số thí sinh | Xét tuyển TB | Toán TB | Văn TB | Anh TB |
+| STT | Quận/Huyện/Thị xã | Số thí sinh | Xét tuyển TB | Toán TB | Văn TB | Ngoại ngữ TB |
 | :-: | :---------------- | :---------- | :----------: | :-----: | :----: | :----: |
 |  1  | Quận Thuận Hóa    | 2.906       |     24,39    |   4,19  |  6,08  |  5,86  |
 |  2  | Quận Phú Xuân     | 1.807       |     22,61    |   3,62  |  5,81  |  5,27  |
@@ -152,8 +153,32 @@ Thống kê số lượng thí sinh theo khu vực.
 |  9  | Huyện A Lưới      | 474         |     16,74    |   1,81  |  3,83  |  3,54  |
 |  10 | Ngoài tỉnh        | 69          |     33,81    |   7,40  |  7,66  |  8,79  |
 
+![Điểm trung bình các môn theo khu vực](/assets1/img/line_diemkhuvuc.png)
+Nhận xét tổng quan:
+- Các thí sinh "Ngoài tỉnh" nổi bật với điểm trung bình cao vượt trội ở cả 3 môn (Toán, Văn, Ngoại ngữ) → đây là nhóm học sinh đa số học lực tốt đồng thời số lượng ít nên điểm trung bình rất cao, và có mục tiêu nguyện vọng cao (Quốc học Huế, Hai Bà Trưng) khi thi vào Huế.
+- Quận Thuận Hóa và Phú Xuân thuộc TP Huế giữ vị trí cao trong tỉnh, đặc biệt có nền tảng Văn và Ngoại ngữ tốt.
+- Huyện A Lưới có mặt bằng điểm trung bình thấp nhất, thấp đều ở cả ba môn. Điều này cho thấy khoảng cách về chất lượng giáo dục vùng sâu cần được quan tâm hơn.
 
-Thống kê số lượng theo năm sinh
+Phân tích từng môn (không tính các thí sinh "Ngoài tỉnh")
+
+Về môn Toán:
+- Khoảng cách giữa khu vực cao nhất và thấp nhất trong địa bàn thành phố Huế lên đến ~ 2.4 điểm → chênh lệch rõ rệt về trình độ môn Toán.
+- Các huyện như A Lưới, Phú Lộc, Thị xã Phong Điền,... có mặt bằng chung thấp → có thể do điều kiện học tập chưa thuận lợi hoặc điều kiện gia đình không được tốt như các địa phương khác.
+- Toán là môn có độ phân hóa mạnh, phù hợp để làm tiêu chí lọc học sinh vào các trường tốp đầu.
+
+Về môn Ngữ văn: 
+- Môn ngữ văn có mức điểm trung bình khá ổn, ít biến động cũng như độ chênh lệch không quá rõ như môn Toán, ngoại trừ Huyện A Lưới như đã phân tích gặp nhiều khó khăn về mọi mặt,..
+- Các địa phương như Q.Thuận Hóa, Q.Phú Xuân, Tx.Hương Thủy, có mặt bằng điểm Văn khá tốt.
+- Đây là môn cân bằng giữa các khu vực, phản ánh sự đồng đều trong chương trình học.
+
+Về môn Ngoại ngữ:
+- Ngoại ngữ cũng có sự phân hóa khá mạnh ~ 2 điểm. Hai quận trong thành phố có mặt bằng điểm cao nhất tuy nhiên điểm trung bình giữa các thí sinh ở mức trung bình.
+- Mặt bằng chung các huyện như A Lưới, Phong Điền, Phú Vang có điểm tiếng Anh thấp → cần chú trọng đến các địa phương này, hoặc có thể do không có điều kiện tiếp xúc nhiều với môn này.
+- Đây là môn dễ bị "bỏ quên" ở vùng sâu, cần có chính sách đào tạo đặc thù.
+
+### 2.4. Một số thống kê thú vị khác
+
+#### 2.4.1 Thống kê số lượng theo năm sinh
 
 | STT | Năm sinh | Số lượng thí sinh |
 | :-: | :------- | :--------------- |
@@ -164,7 +189,9 @@ Thống kê số lượng theo năm sinh
 |  5  | 2010     |       10.614      |
 |  6  | 2011     |         1         |
 
-Năm 2010
+Năm 2025 là năm tuyển sinh chủ yếu của các bạn sinh năm (2010), tuy nhiên có nhiều thí sinh sinh năm 2009 mong muốn "sửa sai" năm 2024. Thú vị khi có thí sinh thi trước tuổi.
+
+Về năm sinh **2010**, tất nhiên năm sinh này là năm sinh có số lượng thí sinh đông nhất, dưới đây là thống kê về các tháng.
 
 | STT | Tháng sinh | Điểm xét tuyển trung bình |
 | :-: | :--------- | :-----------------------: |
@@ -181,8 +208,21 @@ Năm 2010
 |  11 | Tháng 11   |           20,27           |
 |  12 | Tháng 12   |           20,52           |
 
-### 2.2. 
+- Thí sinh sinh vào đầu năm (tháng 1 đến 3) có điểm xét tuyển trung bình cao hơn rõ rệt so với các tháng cuối năm.
+- Từ tháng 4 trở đi, điểm xét tuyển có xu hướng giảm dần, thấp nhất ở tháng 11 với 20,27 điểm, điều này có thể phản ánh ảnh hưởng của hiệu ứng tuổi tác – học sinh sinh đầu năm thường trưởng thành hơn, phát triển sớm hơn về nhận thức, nên có thể học tốt hơn trong gai đoạn THCS.
+- Tuy nhiên, sự chênh lệch không quá lớn (dao động trong khoảng ~ 2.7 điểm), nên các yếu tố môi trường và học tập vẫn là quyết định chính.
 
+#### 2.4.2. Thống kê về giới tính
+Không có sự mất cân bằng giới tính trong kỳ thi lần này, sự phân bổ này cho thấy sự đồng đều về giới tính trong lực lượng học sinh dự thi, phản ánh sự bình đẳng cơ bản trong tiếp cận giáo dục giữa học sinh nam và nữ tại thành phố Huế.
+
+![Tỉ lệ giới tính](/assets1/img/pie_gt.png)
+
+Ngoài tỷ lệ giới tính thì về điểm số của học sinh Nữ cũng hơn học sinh Nam trong giai đoạn THCS. Cụ thể như hình dưới đây:
+![Điểm trung bình theo giới tính](/assets1/img/diem_gt.png)
+- Giới tính Nữ có điểm trung bình cao hơn nam ở cả 3 môn, cho thấy xu hướng vượt trội nhẹ về học lực của nữ.
+-  Môn Ngữ Văn là môn chênh lệch rõ nhất (~ 0.77 điểm), phù hợp với nhiều nghiên cứu cho thấy học sinh nữ thường có ưu thế hơn trong các môn xã hội, ngôn ngữ.
+- Môn Toán có sự chênh lệch nhỏ nhất (~ 0.07 điểm), gần như cân bằng, chứng tỏ không có sự khác biệt đáng kể giữa hai giới ở môn này.
+- Môn Ngoại ngữ cũng cho thấy nữ có lợi thế nhẹ, điều này có thể phản ánh sự chăm chỉ hoặc khả năng tiếp thu ngôn ngữ tốt hơn ở học sinh nữ.
 
 ## Liên hệ
 Nếu có bất kỳ câu hỏi hay đóng góp, hãy liên hệ qua email hoặc tạo issue trên GitHub.
