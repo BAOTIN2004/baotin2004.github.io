@@ -20,7 +20,7 @@ Bài viết này phù hợp cho những bạn đọc:
 - Yêu thích phân tích dữ liệu giáo dục.
 - Muốn khám phá kỳ thi tuyển sinh lớp 10 ở Huế bằng góc nhìn số liệu.
 
-Bài viết này được thực hiện dưới góc nhìn cá nhân, dựa trên dữ liệu thống kê và trực quan hóa, hoàn toàn không mang tính định hướng, xếp hạng hay đánh giá chính thức bất kỳ trường học hay địa phương nào.
+*Bài viết này được thực hiện dưới góc nhìn cá nhân, dựa trên dữ liệu thống kê và trực quan hóa, hoàn toàn không mang tính định hướng, xếp hạng hay đánh giá bất kỳ trường học hay địa phương nào.*
 ## 1. Thu thập dữ liệu tuyển sinh lớp 10 ở Tp.Huế
 
 Dữ liệu được thu thập từ trang tra cứu điểm tuyển sinh Tp Huế: `http://117.3.133.1:8080/tracuu/index.html`. Theo Báo Giáo dục và Thời đại đăng tin có hơn 12.400 thí sinh đăng ký dự thi tuyển sinh vào lớp 10 tại địa bàn thành phố. Tuy nhiên trong bài viết này chỉ thực hiện crawl được kết quả khoảng 11.000 thí sinh, số báo danh có định dạng 6 chữ số "010001",...với phương pháp khi tra cứu 3 số báo danh liên tiếp không có thông tin thí sinh thì cộng lên 100 đơn vị. Hiện tại vẫn chưa tìm ra phương pháp hiệu quả nhất, rất mong được đóng góp từ bạn đọc.
